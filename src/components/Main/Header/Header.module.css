@@ -1,0 +1,95 @@
+.container {
+  position: relative;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-areas: ". a b .";
+  grid-template-columns: 96px auto auto 96px;
+}
+
+.banner {
+  grid-area: b;
+  display: flex;
+}
+
+.bannerBg {
+  position: absolute;
+  width: 487px;
+  height: 485px;
+  display: flex;
+  align-self: flex-end;
+  right: 0;
+  top: -88px;
+  background: #dc75a5;
+  mix-blend-mode: normal;
+  z-index: 1;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+.bannerBg2 {
+  position: absolute;
+  width: 628px;
+  height: 625px;
+  left: -474px;
+  top: 50%;
+  background: #3979f3;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+  z-index: 1;
+}
+.textBlock {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+.blockContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 9999;
+}
+.blockSocialIcons {
+  margin-top: 95px;
+}
+.icons a {
+  margin-right: 24px;
+}
+.blockTopText {
+  color: #00000099;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+.subtitle {
+  margin-bottom: 11px;
+  color: #00000099;
+}
+.buttonBlock {
+  margin-top: 45px;
+}
+.button {
+  background: #3d5afe;
+  padding: 13px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.025em;
+}
+.banner img {
+  width: 435px;
+  height: 482px;
+}

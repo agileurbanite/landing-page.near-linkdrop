@@ -1,0 +1,35 @@
+.leftBlock {
+  grid-area: a;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.banner {
+
+}
+.rightBlock {
+  grid-area: b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentWrapper{
+  position: relative;
+  z-index: 999;
+}
+.containerBg{
+  position: absolute;
+  width: 631px;
+  height: 628px;
+  left: 165px;
+  top: -379px;
+  background: #42BB7F;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  z-index: 1;
+  filter: blur(135.914px);
+}

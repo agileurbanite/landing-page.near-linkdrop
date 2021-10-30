@@ -1,0 +1,66 @@
+.container {
+  width: 100vw;
+  display: grid;
+  position: relative;
+  grid-template-rows: 90px auto 90px;
+  grid-template-areas:
+    " . . . ."
+    ". a b ."
+    ". . . .";
+  grid-template-columns: 330px auto auto 330px;
+  z-index: 999;
+  background: #fff;
+}
+.leftBlock {
+  grid-area: a;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner {
+  width: 446px;
+  height: 461px;
+}
+.bannerBg{
+  position: absolute;
+  width: 627px;
+  height: 624px;
+  left: 54px;
+  top: 0;
+  background: #DC75A5;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+.bannerBg2{
+  position: absolute;
+  width: 1038px;
+  height: 1033px;
+  left: -416px;
+  top: -847px;
+  background: #FBA649;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+.bannerBg3{
+  position: absolute;
+  width: 868px;
+  height: 864px;
+  left: 622px;
+  top: -806px;
+  background: #3979F3;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+  z-index: 9999;
+}
+.rightBlock {
+  grid-area: b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
