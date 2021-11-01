@@ -1,10 +1,7 @@
 body, html {
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family: Roboto,sans-serif;
     font-weight: 400;
@@ -12,9 +9,18 @@ body{
     font-size: 16px;
     line-height: 20px;
 }
-.bannerContainer{
-
+.contentContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999;
 }
+
 .bannerTitle{
     font-size: 48px;
     font-weight: 900;
@@ -38,13 +44,4 @@ body{
 .moreLink a{
     color: #3D5AFE;
     text-decoration: none;
-}
-.btn{
-    background: #3D5AFE;
-    padding: 6px 13px;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 0.025em;
 }
