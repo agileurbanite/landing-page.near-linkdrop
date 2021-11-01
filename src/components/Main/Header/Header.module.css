@@ -1,13 +1,16 @@
 .container {
   position: relative;
-  width: 100vw;
+  width: 100%;
   display: grid;
-  grid-template-rows: 100%;
-  grid-template-areas: ". a b .";
-  grid-template-columns: 96px auto auto 96px;
+  display: grid;
+  grid-template-rows: auto 96px;
+  grid-template-areas:
+          "a b"
+          ". .";
+  grid-template-columns: auto auto;
 }
 
-.banner {
+.rightBlock {
   grid-area: b;
   display: flex;
 }
@@ -38,7 +41,7 @@
   filter: blur(135.914px);
   z-index: 1;
 }
-.textBlock {
+.leftBlock {
   grid-area: a;
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@
     ". a b ."
     ". . . .";
   grid-template-columns: 330px auto auto 330px;
-  z-index: 999;
+  z-index: 3;
   background: #fff;
 }
 .leftBlock {
@@ -16,24 +16,26 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-content: flex-start;
+  align-content: flex-end;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
+  z-index: 9998;
 }
 .banner {
-  width: 446px;
-  height: 461px;
+
 }
 .bannerBg{
   position: absolute;
   width: 627px;
   height: 624px;
   left: 54px;
-  top: 0;
+  top: -256px;
   background: #DC75A5;
   mix-blend-mode: normal;
   opacity: 0.12;
   filter: blur(135.914px);
+  z-index: 1;
 }
 .bannerBg2{
   position: absolute;
@@ -45,6 +47,7 @@
   mix-blend-mode: normal;
   opacity: 0.12;
   filter: blur(135.914px);
+  z-index: 2;
 }
 .bannerBg3{
   position: absolute;
@@ -62,5 +65,5 @@
   grid-area: b;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }

@@ -1,19 +1,21 @@
 .container {
-  width: 100vw;
+  width: 100%;
   display: grid;
   position: relative;
   grid-template-rows: 90px auto 90px;
   grid-template-areas:
-          " . . . ."
-          ". a b ."
-          ". . . .";
-  grid-template-columns: 330px auto auto 330px;
+          " . ."
+          "a b"
+          ". .";
+  grid-template-columns: auto auto;
+  background: #fff;
+  z-index: 9999;
 }
 .leftBlock {
   grid-area: a;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .banner {
   display: flex;

@@ -1,20 +1,18 @@
 .container {
-  width: 100vw;
+  width: 100%;
   display: grid;
   position: relative;
   align-items: center;
   grid-template-rows: 90px auto auto 90px;
   grid-template-areas:
-    ". . . . . ."
-    ". a b c d ."
-    ". a b c d ."
-    ". . . . . .";
-  grid-template-columns: 253px auto auto auto auto 253px;
+          " . . . . "
+          "a b c d "
+          "a b c d"
+          ". . . . ";
+  grid-template-columns: auto;
+  background: #fff;
 }
-.container:nth-child(2n) {
-  display: flex;
-  align-items: center;
-}
+
 .banner1 {
   grid-area: a;
   grid-row: 2;

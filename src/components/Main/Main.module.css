@@ -1,13 +1,13 @@
-.bannerContainer{
-    width: 100vw;
-    display: grid;
-    position: relative;
-    grid-template-rows: 90px auto 90px;
-    grid-template-areas:
-            " . . . . ."
-            ". a . b ."
-            ". . . . .";
-    grid-template-columns: 330px auto 100px auto 330px;
-    z-index: 999;
-    background: #fff;
+.bannerContainer {
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-rows: 90px auto 90px;
+  grid-template-areas:
+    " . . ."
+    "a . b "
+    ". . .";
+  grid-template-columns: auto 100px auto;
+  z-index: 9998;
+  background: #fff;
 }
