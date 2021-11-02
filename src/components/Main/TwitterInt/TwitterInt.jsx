@@ -8,7 +8,6 @@ export const TwitterInt = () => {
   return (
     <div className={mainStyle.bannerContainer} id="twitt-container">
           <div className={twitStyles.leftBlock}>
-            <div className={twitStyles.leftBlockInner}>
               <div className={twitStyles.innerBgOval}></div>
               <div className={twitStyles.innerBgOval7}></div>
               <div className={appStyles.bannerTitle}>Twitter integration</div>
@@ -20,7 +19,6 @@ export const TwitterInt = () => {
                 <a href="/">Learn more ></a>
               </div>
               <div className={twitStyles.innerBgOvalCop7}></div>
-            </div>
           </div>
       <div className={twitStyles.rightBlock}>
         <div className={twitStyles.banner}>
