@@ -1,3 +1,4 @@
+import React from "react";
 import Smile from "../../../images/smile.png";
 import Twitter from "../../../images/twitter.png";
 import Telegram from "../../../images/telegram.png";
@@ -6,8 +7,6 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as appStyles from "../../App.module.css";
 import * as headerStyle from "./Header.module.css";
 import * as mainStyles from "./../Main.module.css";
-
-import React from "react";
 
 export const Header = () => (
   <div className={mainStyles.bannerContainer}>
