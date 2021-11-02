@@ -13,33 +13,38 @@
 .rightBlock {
   grid-area: b;
   display: flex;
+  overflow: hidden;
 }
 
-.bannerBg {
+.rightBlockInner{
+  position: relative;
+  width: 100%;
+}
+
+.innerBgOval:before {
+  content: '';
   position: absolute;
   width: 487px;
   height: 485px;
-  display: flex;
-  align-self: flex-end;
   right: 0;
-  top: -88px;
+  top: -219px;
   background: #dc75a5;
   mix-blend-mode: normal;
   z-index: 1;
   opacity: 0.12;
   filter: blur(135.914px);
 }
-.bannerBg2 {
+.innerBgOval6:before {
+  content: '';
   position: absolute;
   width: 628px;
   height: 625px;
-  left: -474px;
-  top: 50%;
-  background: #3979f3;
+  left: -314px;
+  top: 524px;
+  background: #3979F3;
   mix-blend-mode: normal;
   opacity: 0.12;
   filter: blur(135.914px);
-  z-index: 1;
 }
 .leftBlock {
   grid-area: a;
@@ -49,6 +54,11 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-content: flex-end;
+  overflow: hidden;
+}
+.leftBlockInner{
+  position: relative;
+  width: 100%;
 }
 .blockContent {
   display: flex;
