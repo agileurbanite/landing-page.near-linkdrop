@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-rows: 90px auto 90px;
+  grid-template-areas:
+          " . ."
+          "a b"
+          ". .";
+  grid-template-columns: auto auto;
+  background: #fff;
+  z-index: 9999;
+}
+.leftBlock {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.rightBlock {
+  grid-area: b;
+  display: flex;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerBg{
+  z-index: 999;
+  background: #3979F3;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+  position: absolute;
+  width: 868px;
+  height: 864px;
+  left: 622px;
+}

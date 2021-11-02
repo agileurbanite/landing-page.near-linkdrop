@@ -1,0 +1,13 @@
+.bannerContainer {
+  width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-rows: 90px auto 90px;
+  grid-template-areas:
+    " . . ."
+    "a . b "
+    ". . .";
+  grid-template-columns: auto 100px auto;
+  z-index: 9998;
+  background: #fff;
+}

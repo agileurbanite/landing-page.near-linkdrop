@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+.contentContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999;
+}
+
+.bannerTitle{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+.bannerSubTitle{
+    margin-bottom: 11px;
+    color: #00000099;
+}
+.linkApp{
+    color: #3D5AFE;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+.moreLink{
+    margin-top: 45px;
+}
+.moreLink a{
+    color: #3D5AFE;
+    text-decoration: none;
+}

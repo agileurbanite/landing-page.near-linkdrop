@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  display: grid;
+  position: relative;
+  grid-template-rows: 90px auto 90px;
+  grid-template-areas:
+          " . . . . ."
+          ". a . b ."
+          ". . . . .";
+  grid-template-columns: 330px auto 100px auto 330px;
+  z-index: 999;
+  background: #fff;
+}
+.leftBlock {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner {
+
+}
+.linkApp{
+  color: #3D5AFE;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.rightBlock {
+  grid-area: b;
+  display: flex;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textBlock{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 56px;
+  margin-top: 10px;
+}
+

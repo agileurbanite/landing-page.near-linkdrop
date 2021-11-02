@@ -1,0 +1,18 @@
+.leftBlock {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner {
+
+}
+.rightBlock {
+  grid-area: b;
+  display: flex;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}

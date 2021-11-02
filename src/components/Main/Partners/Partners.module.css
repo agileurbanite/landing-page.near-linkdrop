@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: grid;
+  position: relative;
+  align-items: center;
+  grid-template-rows: 90px auto auto 90px;
+  grid-template-areas:
+          " . . . . "
+          "a b c d "
+          "a b c d"
+          ". . . . ";
+  grid-template-columns: auto;
+  background: #fff;
+}
+
+.banner1 {
+  grid-area: a;
+  grid-row: 2;
+}
+.banner2 {
+  grid-area: b;
+  grid-row: 2;
+}
+.banner3 {
+  grid-area: c;
+  grid-row: 2;
+}
+.banner4 {
+  grid-area: d;
+  grid-row: 2;
+}
+.banner5 {
+  grid-area: a;
+  grid-row: 3;
+}
+.banner6 {
+  grid-area: b;
+  grid-row: 3;
+}
+.banner7 {
+  grid-area: c;
+  grid-row: 3;
+}
+.banner8 {
+  grid-area: d;
+  grid-row: 3;
+}
