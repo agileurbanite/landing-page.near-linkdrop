@@ -20,35 +20,59 @@
   align-items: flex-start;
   justify-content: center;
   position: relative;
+  overflow: hidden;
   z-index: 9998;
 }
 .banner {
 
 }
-.bannerBg{
+
+.leftBlockOuter{}
+.leftBlockInner{
+  position: relative;
+}
+
+.innerBgOval:before{
+  content: '';
   position: absolute;
   width: 627px;
   height: 624px;
-  left: 54px;
-  top: -256px;
+  left: -86px;
+  top: -551px;
   background: #DC75A5;
   mix-blend-mode: normal;
   opacity: 0.12;
   filter: blur(135.914px);
   z-index: 1;
 }
-.bannerBg2{
+
+.innerBgOval7:before{
+  content: '';
   position: absolute;
   width: 1038px;
   height: 1033px;
-  left: -416px;
-  top: -847px;
+  left: -690px;
+  top: -998px;
   background: #FBA649;
   mix-blend-mode: normal;
   opacity: 0.12;
   filter: blur(135.914px);
   z-index: 2;
 }
+
+.innerBgOvalCop7:before{
+  content: '';
+  position: absolute;
+  width: 1038px;
+  height: 1033px;
+  left: -813px;
+  top: 221px;
+  background: #FBA649;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+
 .bannerBg3{
   position: absolute;
   width: 868px;

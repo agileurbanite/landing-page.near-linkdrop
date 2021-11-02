@@ -4,10 +4,11 @@
   position: relative;
   grid-template-rows: 90px auto 90px;
   grid-template-areas:
-    " . . ."
-    "a . b "
-    ". . .";
-  grid-template-columns: auto 100px auto;
+          ". . . . "
+          ". a . b "
+          ". . . . ";
+  grid-template-columns: 90px auto 100px auto;
   z-index: 9998;
   background: #fff;
+    overflow: hidden;
 }

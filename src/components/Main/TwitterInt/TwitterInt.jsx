@@ -7,16 +7,21 @@ import * as mainStyle from "../Main.module.css";
 export const TwitterInt = () => {
   return (
     <div className={mainStyle.bannerContainer} id="twitt-container">
-      <div className={twitStyles.leftBlock}>
-        <div className={appStyles.bannerTitle}>Twitter integration</div>
-        <div className={appStyles.bannerSubTitle}>
-          Paras & MIntbase are using Linkdrop to run retroactive &
-          semi-automated Twitter Campaigns
-        </div>
-        <div className={appStyles.moreLink}>
-          <a href="/">Learn more ></a>
-        </div>
-      </div>
+          <div className={twitStyles.leftBlock}>
+            <div className={twitStyles.leftBlockInner}>
+              <div className={twitStyles.innerBgOval}></div>
+              <div className={twitStyles.innerBgOval7}></div>
+              <div className={appStyles.bannerTitle}>Twitter integration</div>
+              <div className={appStyles.bannerSubTitle}>
+                Paras & MIntbase are using Linkdrop to run retroactive &
+                semi-automated Twitter Campaigns
+              </div>
+              <div className={appStyles.moreLink}>
+                <a href="/">Learn more ></a>
+              </div>
+              <div className={twitStyles.innerBgOvalCop7}></div>
+            </div>
+          </div>
       <div className={twitStyles.rightBlock}>
         <div className={twitStyles.banner}>
           <StaticImage
