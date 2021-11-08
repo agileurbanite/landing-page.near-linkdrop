@@ -19,13 +19,66 @@
     align-content: flex-end;
     align-items: flex-start;
     justify-content: center;
+    overflow: hidden;
 }
 .banner{
-
+    position: relative;
+    z-index: 99;
 }
+.innerBgOval:before{
+    content: '';
+    position: absolute;
+    width: 846px;
+    height: 843px;
+    left: 165px;
+    top: -605px;
+    background: #DC75A5;
+    mix-blend-mode: normal;
+    opacity: 0.12;
+    filter: blur(135.914px);
+}
+.innerBgOval6:before{
+    content: '';
+    position: absolute;
+    width: 868px;
+    height: 864px;
+    left: 622px;
+    top: 521px;
+    background: #3979F3;
+    mix-blend-mode: normal;
+    opacity: 0.12;
+    filter: blur(135.914px);
+}
+.innerBgOval7:before{
+    content: '';
+    position: absolute;
+    width: 1038px;
+    height: 1033px;
+    left: -719px;
+    top: 573px;
+    background: #FBA649;
+    mix-blend-mode: normal;
+    opacity: 0.12;
+    filter: blur(135.914px);
+}
+
+.innerBgOval8:before{
+    content: '';
+    position: absolute;
+    width: 631px;
+    height: 628px;
+    left: 1253px;
+    top: 233px;
+    background: #42BB7F;
+    mix-blend-mode: normal;
+    opacity: 0.12;
+    filter: blur(135.914px);
+}
+
 .rightBlock{
     grid-area: b;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    overflow: hidden;
 }

@@ -6,30 +6,73 @@
   align-content: flex-end;
   align-items: flex-start;
   justify-content: center;
+  overflow: hidden;
 }
 
 .banner {
-
+  position: relative;
+  z-index: 999;
 }
 .rightBlock {
   grid-area: b;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  overflow: hidden;
 }
 .contentWrapper{
   position: relative;
   z-index: 999;
 }
-.containerBg{
+.innerBgOval8:before{
+  content: '';
   position: absolute;
   width: 631px;
   height: 628px;
-  left: 165px;
-  top: -379px;
+  left: 112px;
+  top: -417px;
   background: #42BB7F;
   mix-blend-mode: normal;
   opacity: 0.12;
   z-index: 1;
   filter: blur(135.914px);
 }
+.innerBgOval6:before{
+  content: '';
+  position: absolute;
+  width: 628px;
+  height: 625px;
+  left: -314px;
+  top: 583px;
+  background: #3979F3;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+
+.innerBgOval7:before{
+  content: '';
+  position: absolute;
+  width: 782px;
+  height: 778px;
+  left: 1001px;
+  top: -421px;
+  background: #FBA649;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+
+.innerBgOval:before{
+  content: ' ';
+  position: absolute;
+  width: 487px;
+  height: 485px;
+  left: 1074px;
+  top: 191px;
+  background: #DC75A5;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+}
+
