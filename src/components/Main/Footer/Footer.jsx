@@ -7,19 +7,18 @@ import * as footerStyle from "./Footer.module.css";
 export const Footer = () => (
   <div className={footerStyle.container}>
     <div className={footerStyle.footerLinks}>
-      ©2021 Linkdrop | Terms | Privacy | Licenses | Imprint | Cookie Policy -
-      Preferences | v2.17.0
+      ©2021 NEARDROP
     </div>
     <div className={footerStyle.socialIcons}>
-      <a href="#">
-        <img src={Twitter} alt="Linkdrop twitter" />
-      </a>
-      <a href="#">
-        <img src={Telegram} alt="Linkdrop telegram" />
-      </a>
-      <a href="#">
-        <img src={Github} alt="Linkdrop github" />
-      </a>
+        <a href="https://twitter.com/NEARDR0P">
+            <img src={Twitter} alt="NEARDROP twitter" />
+        </a>
+        <a href="https://t.me/joinchat/sPqlT3Zt-mAyNmI0">
+            <img src={Telegram} alt="NEARDROP telegram" />
+        </a>
+        <a href="https://github.com/NEAR-labs/contracts.near-linkdrop">
+            <img src={Github} alt="NEARDROP github" />
+        </a>
     </div>
   </div>
 );

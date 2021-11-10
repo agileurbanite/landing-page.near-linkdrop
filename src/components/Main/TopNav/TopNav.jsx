@@ -11,7 +11,7 @@ export const TopNav = () => (
       Linkdrop
     </div>
     <div className={topNav.rightButton}>
-      <a href="/" className={topNav.btn}>
+      <a href="https://app.linkdrop.tech/connect-wallet" className={topNav.btn}>
         Get started
       </a>
     </div>
