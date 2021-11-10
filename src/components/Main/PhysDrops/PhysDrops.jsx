@@ -23,7 +23,7 @@ export const PhysDrops = () => (
         At NEARCON Alpha we onboared all participants via printed QR codes{" "}
       </div>
       <div className={appStyles.moreLink}>
-        <a href="/">Learn more ></a>
+        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
       </div>
     </div>
   </div>

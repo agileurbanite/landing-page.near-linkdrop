@@ -17,13 +17,13 @@ export const Distribute = () => (
       </div>
     </div>
     <div className={distributeStyles.rightBlock}>
-      <div className={appStyles.linkApp}>ABOUT APP</div>
+      <div className={appStyles.linkApp}>STEP 3</div>
       <div className={appStyles.bannerTitle}>Distribute</div>
       <div className={appStyles.bannerSubTitle}>
         Copy each link or export all as CSV or QR codes
       </div>
       <div className={appStyles.moreLink}>
-        <a href="/">Learn more ></a>
+        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
       </div>
     </div>
   </div>

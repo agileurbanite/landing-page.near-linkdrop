@@ -15,7 +15,7 @@ export const TwitterInt = () => (
         Twitter Campaigns
       </div>
       <div className={appStyles.moreLink}>
-        <a href="/">Learn more ></a>
+        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
       </div>
     </div>
     <div className={twitStyles.rightBlock}>

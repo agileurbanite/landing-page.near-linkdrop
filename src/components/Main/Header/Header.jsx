@@ -18,23 +18,23 @@ export const Header = () => (
           </div>
           <div className={appStyles.bannerTitle}>Onboard new users</div>
           <div className={headerStyle.subtitle}>
-            Setup a Linkdrop Campain with claimable links & QR code
+            Setup a Linkdrop Campain with claimable links & QR codes
           </div>
           <div className={headerStyle.buttonBlock}>
-            <a href="/" className={headerStyle.button}>
+            <a href="https://app.linkdrop.tech/connect-wallet" className={headerStyle.button}>
               Get started
             </a>
           </div>
           <div className={headerStyle.blockSocialIcons}>
             <div className={headerStyle.icons}>
-              <a href="#">
-                <img src={Twitter} alt="Linkdrop twitter" />
+              <a href="https://twitter.com/NEARDR0P">
+                <img src={Twitter} alt="NEARDROP twitter" />
               </a>
-              <a href="#">
-                <img src={Telegram} alt="Linkdrop telegram" />
+              <a href="https://t.me/joinchat/sPqlT3Zt-mAyNmI0">
+                <img src={Telegram} alt="NEARDROP telegram" />
               </a>
-              <a href="#">
-                <img src={Github} alt="Linkdrop github" />
+              <a href="https://github.com/NEAR-labs/contracts.near-linkdrop">
+                <img src={Github} alt="NEARDROP github" />
               </a>
             </div>
           </div>

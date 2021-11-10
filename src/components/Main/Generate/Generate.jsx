@@ -8,13 +8,13 @@ export const Generate = () => (
   <div className={mainStyle.bannerContainer}>
     <div className={generateStyles.leftBlock}>
       <div className={generateStyles.innerBgOval8}></div>
-      <div className={appStyles.linkApp}>ABOUT APP</div>
+      <div className={appStyles.linkApp}>STEP 2</div>
       <div className={appStyles.bannerTitle}>Generate</div>
       <div className={appStyles.bannerSubTitle}>
         Specify the amount of links & NEAR per link
       </div>
       <div className={appStyles.moreLink}>
-        <a href="/">Learn more ></a>
+        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
       </div>
     </div>
     <div className={generateStyles.rightBlock}>
