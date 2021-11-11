@@ -11,7 +11,7 @@ export const TopNav = () => (
         NEARDROP
     </div>
     <div className={topNav.rightButton}>
-      <a href="https://app.linkdrop.tech/connect-wallet" className={topNav.btn}>
+      <a href="https://app.neardrop.io/" className={topNav.btn}>
         Get started
       </a>
     </div>

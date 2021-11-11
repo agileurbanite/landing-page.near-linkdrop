@@ -21,7 +21,7 @@ export const Header = () => (
             Setup a Linkdrop Campain with claimable links & QR codes
           </div>
           <div className={headerStyle.buttonBlock}>
-            <a href="https://app.linkdrop.tech/connect-wallet" className={headerStyle.button}>
+            <a href="https://app.neardrop.io/" className={headerStyle.button}>
               Get started
             </a>
           </div>
