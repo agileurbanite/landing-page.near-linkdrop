@@ -9,6 +9,16 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        start_url: `/`,
+        background_color: `#fff`,
+        display: `standalone`,
+        icon: 'src/images/favicon.png',
+        theme_color_in_head: false,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
