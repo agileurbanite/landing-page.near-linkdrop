@@ -2,7 +2,7 @@ import React from "react";
 import * as partnersStyles from "./Partners.module.css";
 import HumanLogo from "../../../images/human.png";
 import NearWeekLogo from "../../../images/nearweek.png";
-import NearLogo from "../../../images/near.png";
+import NearLogo from "../../../images/partner-near.png";
 import SwaggerDaoLogo from "../../../images/swaggerdao.png";
 import OctopusLogo from "../../../images/octopus.png";
 import ParasLogo from "../../../images/paras.png";

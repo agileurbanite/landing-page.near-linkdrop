@@ -6,9 +6,9 @@ export const TopNav = () => (
   <div className={topNav.container}>
     <div className={topNav.brandLogo}>
       <div className={topNav.logo}>
-        <img src={Logo} alt="Linkdrop" />
+        <img src={Logo} alt="NEARDROP" />
       </div>
-      Linkdrop
+        NEARDROP
     </div>
     <div className={topNav.rightButton}>
       <a href="https://app.linkdrop.tech/connect-wallet" className={topNav.btn}>
