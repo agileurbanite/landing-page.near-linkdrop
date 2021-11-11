@@ -9,7 +9,8 @@
           ". .";
   grid-template-columns: auto auto;
   background: #fff;
-  z-index: 9999;
+  z-index: 9998;
+  overflow: hidden;
 }
 .leftBlock {
   grid-area: a;
@@ -35,14 +36,16 @@
   justify-content: center;
 }
 
-.containerBg{
-  z-index: 999;
-  background: #3979F3;
-  mix-blend-mode: normal;
-  opacity: 0.12;
-  filter: blur(135.914px);
+.innerBgOval:before{
+  content: '';
   position: absolute;
   width: 868px;
   height: 864px;
   left: 622px;
+  top: -259px;
+  background: #3979F3;
+  mix-blend-mode: normal;
+  opacity: 0.12;
+  filter: blur(135.914px);
+  z-index: 1;
 }

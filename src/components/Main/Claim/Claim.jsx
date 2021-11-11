@@ -1,6 +1,6 @@
 import React from "react";
 import * as claimStyles from "./Claim.module.css";
-import ClaimIcon from "../../../images/Claim.png";
+import ClaimIcon from "../../../images/claim.png";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
 
