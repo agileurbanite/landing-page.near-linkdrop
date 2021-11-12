@@ -40,7 +40,7 @@ export const Header = () => (
           </div>
         </div>
       </div>
-      <div className={headerStyle.innerBgOval6}></div>
+      <div className={headerStyle.innerBgOval6}/>
     </div>
     <div className={headerStyle.rightBlock}>
       <div className={headerStyle.rightBlockInner}>
@@ -54,6 +54,6 @@ export const Header = () => (
         />
       </div>
     </div>
-    <div className={headerStyle.innerBgOval}></div>
+    <div className={headerStyle.innerBgOval}/>
   </div>
 );
