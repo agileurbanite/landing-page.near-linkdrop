@@ -19,6 +19,7 @@ export const PhysDrops = () => (
     </div>
     <div className={physDropsStyles.rightBlock}>
         <div className={physDropsStyles.innerBgOval}/>
+        <div className={appStyles.linkApp}>USECASE #1</div>
       <div className={appStyles.bannerTitle}>Physical drops</div>
       <div className={appStyles.bannerSubTitle}>
         At NEARCON Alpha we onboared all participants via printed QR codes{" "}

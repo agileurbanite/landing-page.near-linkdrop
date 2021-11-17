@@ -6,16 +6,19 @@ import * as mainStyle from "../Main.module.css";
 
 export const TwitterInt = () => (
   <div className={mainStyle.bannerContainer} id="twitt-container">
-    <div className={twitStyles.innerBgOval}/>
-    <div className={twitStyles.innerBgOval7}/>
+    <div className={twitStyles.innerBgOval} />
+    <div className={twitStyles.innerBgOval7} />
     <div className={twitStyles.leftBlock}>
+      <div className={appStyles.linkApp}>USECASE #2</div>
       <div className={appStyles.bannerTitle}>Twitter integration</div>
       <div className={appStyles.bannerSubTitle}>
         Paras & MIntbase are using Linkdrop to run retroactive & semi-automated
         Twitter Campaigns
       </div>
       <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
+        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">
+          Learn more >
+        </a>
       </div>
     </div>
     <div className={twitStyles.rightBlock}>
@@ -28,6 +31,6 @@ export const TwitterInt = () => (
         />
       </div>
     </div>
-    <div className={twitStyles.innerBgOvalCop7}/>
+    <div className={twitStyles.innerBgOvalCop7} />
   </div>
 );

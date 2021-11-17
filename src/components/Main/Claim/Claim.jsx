@@ -2,7 +2,7 @@ import React from "react";
 import * as claimStyles from "./Claim.module.css";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
-import {StaticImage} from "gatsby-plugin-image";
+import ClaimIcon from "../../../images/claim.png";
 
 export const Claim = () => (
   <div className={mainStyle.bannerContainer}>
@@ -20,14 +20,7 @@ export const Claim = () => (
     </div>
     <div className={claimStyles.rightBlock}>
       <div className={claimStyles.banner}>
-          <StaticImage
-              src="../../../images/claim.png"
-              quality={95}
-              loading="eager"
-              fadeIn={false}
-              formats={["auto", "webp", "avif"]}
-              alt="Header banner"
-          />
+          <img src={ClaimIcon} alt="Connect Wallet" />
       </div>
       <div className={claimStyles.innerBgOval6}/>
       <div className={claimStyles.innerBgOval8}/>
