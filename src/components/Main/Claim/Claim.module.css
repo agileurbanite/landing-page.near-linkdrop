@@ -82,3 +82,17 @@
     justify-content: flex-start;
     overflow: hidden;
 }
+
+@media  screen and (max-width: 600px) {
+    .rightBlock {
+        grid-area: a;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftBlock {
+        grid-area: b;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}

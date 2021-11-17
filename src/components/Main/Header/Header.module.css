@@ -106,3 +106,51 @@
   width: 435px;
   height: 482px;
 }
+
+@media screen and (max-width: 600px){
+  .rightBlock {
+    grid-area: a;
+  }
+  .leftBlock {
+    grid-area: b;
+  }
+  .blockContent {
+    align-items: center;
+    justify-content: center;
+  }
+  .blockTopText{
+    grid-area: a;
+    margin-top: 38px;
+    text-align: center;
+  }
+  .subtitle{
+    grid-area: c;
+    text-align: center;
+  }
+  .blockSocialIcons{
+    grid-area: d;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .buttonBlock{
+    grid-area: e;
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
+  .blockContent{
+    display: grid;
+    grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e";
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -16,3 +16,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px){
+  .rightBlock {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .leftBlock {
+    align-items: center;
+    justify-content: center;
+  }
+}

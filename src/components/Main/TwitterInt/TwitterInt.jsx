@@ -6,8 +6,8 @@ import * as mainStyle from "../Main.module.css";
 
 export const TwitterInt = () => (
   <div className={mainStyle.bannerContainer} id="twitt-container">
-    <div className={twitStyles.innerBgOval}></div>
-    <div className={twitStyles.innerBgOval7}></div>
+    <div className={twitStyles.innerBgOval}/>
+    <div className={twitStyles.innerBgOval7}/>
     <div className={twitStyles.leftBlock}>
       <div className={appStyles.bannerTitle}>Twitter integration</div>
       <div className={appStyles.bannerSubTitle}>
@@ -28,6 +28,6 @@ export const TwitterInt = () => (
         />
       </div>
     </div>
-    <div className={twitStyles.innerBgOvalCop7}></div>
+    <div className={twitStyles.innerBgOvalCop7}/>
   </div>
 );

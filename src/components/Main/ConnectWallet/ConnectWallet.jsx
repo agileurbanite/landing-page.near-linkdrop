@@ -13,7 +13,7 @@ export const ConnectWallet = () => (
     </div>
     <div className={connectWalletStyles.rightBlock}>
       <div className={appStyles.linkApp}>STEP 1</div>
-      <div className={appStyles.bannerTitle}>Connect wallet</div>
+      <div className={appStyles.bannerTitle}>Connect Wallet</div>
       <div className={appStyles.bannerSubTitle}>
         Connect the Linkdrop app with your NEAR wallet
       </div>

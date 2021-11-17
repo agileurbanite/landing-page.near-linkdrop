@@ -4,10 +4,10 @@
   position: relative;
   grid-template-rows: 90px auto 90px;
   grid-template-areas:
-          " . ."
-          "a b"
-          ". .";
-  grid-template-columns: auto auto;
+          " . . . ."
+          ". a b ."
+          ". . . .";
+  grid-template-columns: 5% auto auto 5%;
   background: #fff;
   z-index: 9998;
   overflow: hidden;
@@ -48,4 +48,30 @@
   opacity: 0.12;
   filter: blur(135.914px);
   z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-rows: 36px auto auto 36px;
+    grid-template-areas:
+            ". . ."
+            ". a ."
+            ". b ."
+            ". . .";
+    grid-template-columns: 10px auto 10px;
+    z-index: 9998;
+    background: #fff;
+    overflow: hidden;
+  }
+  .rightBlock {
+    grid-area: b;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftBlock {
+    grid-area: a;
+    align-items: center;
+    justify-content: center;
+  }
 }

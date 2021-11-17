@@ -44,3 +44,15 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 600px){
+  .rightBlock {
+    grid-area: b;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftBlock {
+    grid-area: a;
+    align-items: center;
+    justify-content: center;
+  }
+}

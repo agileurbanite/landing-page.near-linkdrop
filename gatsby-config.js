@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.neardrop.io",
     pathPrefix: "/",
-    title: "Linkdrop Landing Page",
+    title: "NEARDROP",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        name: 'NEARDROP',
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,

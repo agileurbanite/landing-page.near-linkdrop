@@ -45,3 +45,32 @@ body{
     color: #3D5AFE;
     text-decoration: none;
 }
+@media screen and (max-width: 600px){
+    .linkApp {
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+    .moreLink {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .bannerSubTitle {
+        text-align: center;
+    }
+}
+
+@media screen  and (max-width: 800px){
+    .bannerTitle {
+        grid-area: b;
+        text-align: center;
+        font-size: 31px;
+        line-height: 39px;
+        text-transform: capitalize;
+    }
+    .bannerSubTitle {
+        text-align: center;
+    }
+}

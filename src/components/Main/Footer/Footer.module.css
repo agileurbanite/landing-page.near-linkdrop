@@ -22,3 +22,18 @@
 .socialIcons a {
   margin-right: 24px;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footerLinks{
+
+  }
+  .socialIcons{
+
+  }
+}
