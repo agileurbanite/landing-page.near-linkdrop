@@ -2,7 +2,7 @@ import React from "react";
 import * as claimStyles from "./Claim.module.css";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
-import ClaimIcon from "../../../images/claim.png";
+import ClaimIcon from "../../../images/Сlaim.png";
 
 export const Claim = () => (
   <div className={mainStyle.bannerContainer}>
