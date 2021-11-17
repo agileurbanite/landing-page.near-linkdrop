@@ -12,15 +12,24 @@
     background: #fff;
     overflow: hidden;
 }
+
+@media screen and (max-width: 360px){
+    .bannerContainer {
+        overflow: hidden;
+        justify-content: center;
+    }
+}
+
 @media screen  and (max-width: 600px) {
     .bannerContainer {
         display: grid;
-        grid-template-rows: 36px auto auto 36px;
+        grid-template-rows: 10px auto auto 10px;
         grid-template-areas: ". . ." ". a ." ". b ." ". . .";
-        grid-template-columns: 10px auto 10px;
+        grid-template-columns: 5% auto 5%;
         z-index: 9998;
         background: #fff;
         overflow: hidden;
+        justify-content: center;
     }
 }
 
@@ -28,5 +37,6 @@
   .bannerContainer {
     display: grid;
     grid-template-columns: 5% auto 5%;
+    grid-template-rows: 10px auto auto 10px;
   }
 }
