@@ -59,6 +59,14 @@ body{
         line-height: 24px;
         letter-spacing: 0.15px;
     }
+    .bannerTitle {
+        grid-area: b;
+        text-align: center;
+        font-size: 26px;
+        line-height: 27px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
     .bannerSubTitle {
         text-align: center;
     }
@@ -68,8 +76,8 @@ body{
     .bannerTitle {
         grid-area: b;
         text-align: center;
-        font-size: 31px;
-        line-height: 39px;
+        font-size: 27px;
+        line-height: 26px;
         text-transform: capitalize;
     }
     .bannerSubTitle {
