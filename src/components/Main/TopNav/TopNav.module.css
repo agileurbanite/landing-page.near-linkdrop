@@ -41,3 +41,19 @@
     font-size: 14px;
     letter-spacing: 0.025em;
 }
+@media screen and (max-width: 600px){
+    .container{
+        height: 56px;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-areas: ". a .";
+        grid-template-columns: 24px auto 24px;
+        justify-content: center;
+    }
+    .brandLogo img{
+        width: 32px;
+    }
+    .rightButton{
+        display: none;
+    }
+}
