@@ -1,13 +1,14 @@
 .container {
   width: 100%;
+  min-height: 560px;
   display: grid;
   position: relative;
-  grid-template-rows: 90px auto 90px;
+  grid-template-rows: 125px auto 125px;
   grid-template-areas:
           " . . . ."
           ". a b ."
           ". . . .";
-  grid-template-columns: 5% auto auto 5%;
+  grid-template-columns: 15% auto auto 15%;
   background: #fff;
   z-index: 9998;
   overflow: hidden;
