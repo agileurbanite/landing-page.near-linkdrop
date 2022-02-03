@@ -3,6 +3,7 @@ import * as claimStyles from "./Claim.module.css";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
 import ClaimIcon from "../../../images/Сlaim.png";
+import {LearnMore} from "../general/LearnMore/LearnMore";
 
 export const Claim = () => (
   <div className={mainStyle.bannerContainer}>
@@ -13,9 +14,7 @@ export const Claim = () => (
       <div className={appStyles.bannerSubTitle}>
         The receiver does not need to have a NEAR wallet in advance
       </div>
-      <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
-      </div>
+      <LearnMore />
       <div className={claimStyles.innerBgOval7} />
     </div>
     <div className={claimStyles.rightBlock}>

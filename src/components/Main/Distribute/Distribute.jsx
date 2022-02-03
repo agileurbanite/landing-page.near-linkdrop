@@ -3,6 +3,7 @@ import * as distributeStyles from "./Distribute.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
+import {LearnMore} from "../general/LearnMore/LearnMore";
 
 export const Distribute = () => (
   <div className={mainStyle.bannerContainer}>
@@ -22,9 +23,7 @@ export const Distribute = () => (
       <div className={appStyles.bannerSubTitle}>
         Copy each link or export all as CSV or QR codes
       </div>
-      <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
-      </div>
+      <LearnMore />
     </div>
   </div>
 );

@@ -40,13 +40,6 @@ body{
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
-.moreLink{
-    margin-top: 45px;
-}
-.moreLink a{
-    color: #3D5AFE;
-    text-decoration: none;
-}
 @media screen and (max-width: 600px){
     .linkApp {
         margin-bottom: 10px;

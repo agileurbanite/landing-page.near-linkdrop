@@ -3,6 +3,7 @@ import * as generateStyles from "./Generate.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
+import {LearnMore} from "../general/LearnMore/LearnMore";
 
 export const Generate = () => (
   <div className={mainStyle.bannerContainer}>
@@ -13,9 +14,7 @@ export const Generate = () => (
       <div className={appStyles.bannerSubTitle}>
         Specify the amount of links & NEAR per link
       </div>
-      <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
-      </div>
+      <LearnMore />
     </div>
     <div className={generateStyles.rightBlock}>
       <div className={generateStyles.innerBgOval7} />

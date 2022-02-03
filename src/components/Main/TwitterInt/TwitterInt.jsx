@@ -3,6 +3,7 @@ import * as twitStyles from "./TwitterInt.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
+import {LearnMore} from "../general/LearnMore/LearnMore";
 
 export const TwitterInt = () => (
   <div className={mainStyle.bannerContainer} id="twitt-container">
@@ -15,11 +16,7 @@ export const TwitterInt = () => (
         Paras & MIntbase are using Linkdrop to run retroactive & semi-automated
         Twitter Campaigns
       </div>
-      <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">
-          Learn more >
-        </a>
-      </div>
+      <LearnMore />
     </div>
     <div className={twitStyles.rightBlock}>
       <div className={twitStyles.banner}>
