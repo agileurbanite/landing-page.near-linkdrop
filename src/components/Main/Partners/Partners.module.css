@@ -10,7 +10,9 @@
   grid-template-columns: 14% auto 14%;
   justify-content: center;
 }
-
+.banner {
+  display: block;
+}
 .bannerWrapper{
   grid-area: b;
   width: 100%;
@@ -43,9 +45,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.imageOuter img{
-
 }
 
 @media screen and (max-width: 600px){

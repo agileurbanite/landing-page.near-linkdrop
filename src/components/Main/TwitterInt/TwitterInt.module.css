@@ -11,6 +11,9 @@
   z-index: 3;
   background: #fff;
 }
+.banner{
+  display: block;
+}
 .leftBlock {
   grid-area: a;
   display: flex;
@@ -23,11 +26,7 @@
   overflow: hidden;
   z-index: 9998;
 }
-.blockContent{
 
-}
-
-.leftBlockOuter{}
 .leftBlockInner{
   position: relative;
 }

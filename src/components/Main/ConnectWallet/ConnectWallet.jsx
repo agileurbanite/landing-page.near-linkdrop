@@ -3,6 +3,7 @@ import * as connectWalletStyles from "./ConnectWallet.module.css";
 import ConnectWalletIcon from "../../../images/ConnectWallet.png";
 import * as appStyles from "../../App.module.css";
 import * as mainStyle from "../Main.module.css";
+import {LearnMore} from "../general/LearnMore/LearnMore";
 
 export const ConnectWallet = () => (
   <div className={mainStyle.bannerContainer}>
@@ -17,9 +18,7 @@ export const ConnectWallet = () => (
       <div className={appStyles.bannerSubTitle}>
         Connect the Linkdrop app with your NEAR wallet
       </div>
-      <div className={appStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/onboarding-with-linkdrop">Learn more ></a>
-      </div>
+      <LearnMore />
     </div>
   </div>
 );
