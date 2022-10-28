@@ -1,12 +1,11 @@
 import React from "react";
 import Smile from "../../../images/smile.png";
-import Twitter from "../../../images/twitter.png";
-import Telegram from "../../../images/telegram.png";
 import Github from "../../../images/github.png";
 import { StaticImage } from "gatsby-plugin-image";
 import * as appStyles from "../../App.module.css";
 import * as headerStyle from "./Header.module.css";
 import * as mainStyles from "./../Main.module.css";
+import { GITHUB_URL } from "../../../utils/constants";
 
 export const Header = () => (
   <div className={mainStyles.bannerContainer}>
@@ -27,13 +26,7 @@ export const Header = () => (
           </div>
           <div className={headerStyle.blockSocialIcons}>
             <div className={headerStyle.icons}>
-              <a href="https://twitter.com/NEARDR0P">
-                <img src={Twitter} alt="NEARDROP twitter" />
-              </a>
-              <a href="https://t.me/joinchat/sPqlT3Zt-mAyNmI0">
-                <img src={Telegram} alt="NEARDROP telegram" />
-              </a>
-              <a href="https://github.com/NEAR-labs/contracts.near-linkdrop">
+              <a target="_blank" href={GITHUB_URL}>
                 <img src={Github} alt="NEARDROP github" />
               </a>
             </div>

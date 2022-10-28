@@ -1,8 +1,9 @@
 import React from "react";
 import * as linkStyles from "./LearnMore.module.css";
+import { LEARN_MORE_URL } from "../../../../utils/constants";
 
 export const LearnMore = () => (
     <div className={linkStyles.moreLink}>
-        <a href="https://wiki.near.org/resources/faq/neardrop">Learn more ></a>
+        <a target="_blank" href={LEARN_MORE_URL}>Learn more ></a>
     </div>
 )
