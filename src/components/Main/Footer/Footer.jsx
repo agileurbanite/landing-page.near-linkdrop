@@ -6,7 +6,7 @@ import { GITHUB_URL } from "../../../utils/constants";
 export const Footer = () => (
   <div className={footerStyle.container}>
     <div className={footerStyle.footerLinks}>
-      ©2021 NEARDROP
+      ©2022 NEARDROP
     </div>
     <div className={footerStyle.socialIcons}>
         <a target="_blank" href={GITHUB_URL}>
